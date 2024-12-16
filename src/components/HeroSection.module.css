@@ -1,0 +1,8 @@
+.hero {
+  background-color: #070707;
+  background-size: cover;
+  background-position: center;
+  margin-top: 10px;
+  height: 30vh;
+  border-radius: 20px;
+}
