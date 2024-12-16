@@ -85,7 +85,7 @@ const JobList = () => {
         <Grid.Col span={10}>
           <SimpleGrid cols={{ base: 2, md: 3 }}>
             {isLoading
-              ? Array.from({ length: 6 }).map((_, index) => (
+              ? Array.from({ length: 12 }).map((_, index) => (
                   <Card key={index} radius={"md"} shadow="md" withBorder>
                     <Skeleton height={30} radius={"md"} mb={10} />
                     <Skeleton height={20} radius={"md"} mb={10} />
